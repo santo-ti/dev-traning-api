@@ -1,5 +1,5 @@
 {
-  "name": "devtraning",
+  "name": "dev-traning-api",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -26,6 +26,7 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/typeorm": "^10.0.0",
+    "bcrypt": "^5.1.1",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
