@@ -1,6 +1,10 @@
+
+### GET /courses
+
 GET http://localhost:3000/courses HTTP/1.1
 
-### USERS
+
+### POST[ok] /users
 
 POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
@@ -12,4 +16,14 @@ content-type: application/json
   "passwordConfirmation": "123456"
 }
 
-###
+### POST[Bad Request] /users
+
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+  "name": "",
+  "email": "adminemail.com",
+  "password": "1234",
+  "passwordConfirmation": "1234"
+}
